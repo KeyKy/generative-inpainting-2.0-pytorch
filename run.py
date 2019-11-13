@@ -126,8 +126,8 @@ class Run(object):
             # save model checkpoint
             if not os.path.exists(self.args.model_save_path):
                 os.mkdir(self.args.model_save_path)
-            torch.save(self.G,os.path.join(self.model_save_path,'{}_G_L1_{}.pth'.format(epoch,self.args.l1_loss_alpha)))
-            torch.save(self.D,os.path.join(self.model_save_path, '{}_D_L1_{}.pth'.format(epoch, self.args.l1_loss_alpha)))
+            torch.save(self.G,os.path.join(self.args.model_save_path,'{}_G_L1_{}.pth'.format(epoch,self.args.l1_loss_alpha)))
+            torch.save(self.D,os.path.join(self.args.model_save_path, '{}_D_L1_{}.pth'.format(epoch, self.args.l1_loss_alpha)))
 
             # save sample image
 
