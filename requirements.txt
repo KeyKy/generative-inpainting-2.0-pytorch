@@ -1,0 +1,7 @@
+torch==1.0.1
+torchvision==0.2.2
+numpy==1.16.2
+Pillow==5.2.0
+opencv-python
+argparse
+dlib==19.18.0
