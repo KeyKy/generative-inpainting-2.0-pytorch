@@ -27,7 +27,7 @@ def config():
 
     #parser.add_argument('--metadata_path', type=str, default='./data/list_attr_celeba.txt')
     parser.add_argument('--log_path', type=str, default='logs')
-    parser.add_argument('--model_save_path)', type=str, default='./checkpoint')
+    parser.add_argument('--model_save_path', type=str, default='./checkpoint')
     parser.add_argument('--sample_path', type=str, default='samples')
     parser.add_argument('--pretrained_model_G',type=str,default='',help='name of pretrained model in the model save path')
     parser.add_argument('--pretrained_model_D', type=str, default='', help='name of pretrained model in the model save path')
