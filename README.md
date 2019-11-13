@@ -9,7 +9,7 @@ Unofficial implementation of DeepFill v2, ICCV2019 paper Free-Form Image Inpaint
 ## usage
 * check out the requirement
 * download the [pretrained model](https://github.com/davisking/dlib-models) of 68-points facial landmark predictor and unzip it to `./facial_landmark_detector` folder.
-* download CelebA Dataset
+* download [CelebA Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
 * preproccess the edge maps of CelebA Dataset: <br>
   `python preproccess_edge.py --face_preddictor_path xxx --img_read_path xxx --mask_save_path xxx` <br>
 * run the train code after modifying `config.py`: <br>
