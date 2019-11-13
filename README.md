@@ -1,5 +1,5 @@
 # generative-inpainting-2.0-pytorch
-Unofficial implementation of DeepFill v2, ICCV2019 paper Free-Form Image Inpainting with Gated Convolution <br>
+Unofficial pytorch implementation of DeepFill v2, ICCV2019 paper Free-Form Image Inpainting with Gated Convolution <br>
 
 ## Link
 * Part of the code is derived from https://github.com/WonwoongCho/Generative-Inpainting-pytorch, especially the contextual attention module.<br>
